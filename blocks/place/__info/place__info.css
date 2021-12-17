@@ -1,0 +1,13 @@
+.place__info {
+  color: white;
+  font-size: 18px;
+  grid-area: info;
+}
+
+.place__info > p {
+  margin-top: 0;
+}
+
+.place__info p + p {
+  margin-top: 25px;
+}

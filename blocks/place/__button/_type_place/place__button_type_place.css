@@ -1,0 +1,4 @@
+.place__button_type_place {
+  grid-area: button;
+  width: 248px;
+}

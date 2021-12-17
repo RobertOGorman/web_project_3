@@ -1,0 +1,10 @@
+.grid__images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    max-width: 1184px;
+    max-height: 442px;
+    row-gap: 16px;
+    column-gap: 16px;
+}
