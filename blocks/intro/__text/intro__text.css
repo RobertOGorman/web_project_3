@@ -3,4 +3,8 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
+    margin-top: 32px;
+    margin-bottom: 0;
+    max-width: 720px;
+    margin: 0;
 }
