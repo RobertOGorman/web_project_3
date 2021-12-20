@@ -7,3 +7,17 @@
   position: relative;
   width: calc(100% - 96px);
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    background-image: url(../../images/cover__background_320.png);
+    margin-top: 62px;
+    min-height: 254px;
+  }
+}

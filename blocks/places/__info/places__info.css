@@ -1,0 +1,28 @@
+.places__info {
+  color: #fff;
+  font-size: 18px;
+  grid-area: info;
+}
+
+.places__info > p {
+  margin-top: 0;
+}
+
+.places__info p + p {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .places__info {
+    width: 352px;
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__info {
+    width: 288px;
+    margin: 30px 16px;
+  }
+}

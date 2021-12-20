@@ -1,0 +1,10 @@
+.places__website-artist {
+  color: #aaa;
+  font-size: 12px;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .places__website-artist {
+    width: 288px;
+}

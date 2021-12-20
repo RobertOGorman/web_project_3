@@ -1,5 +1,12 @@
 .cover__info-title {
-  color: white;
+  color: #fff;
   font-size: 72px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__info-title {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
 }

@@ -2,5 +2,7 @@
   .header__logo {
     height: 52px;
     width: 200px;
+    position: absolute;
+    top: 20px;
   }
 }

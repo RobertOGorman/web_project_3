@@ -5,3 +5,8 @@
   margin: 32px auto 0;
   width: 137px;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__button_type_cover {
+    margin-top: 16px;
+}
