@@ -3,6 +3,11 @@
   width: 248px;
 }
 
+@media screen and (max-width: 768px) {
+  .places__button_type_place {
+   
+}
+
 @media screen and (max-width: 320px) {
   .places__button_type_place {
     margin: 0 16px 0 16px;
