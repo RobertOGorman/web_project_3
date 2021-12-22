@@ -1,0 +1,21 @@
+.places__button {
+  background-color: #0278fe;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 48px;
+  grid-area: button;
+  width: 248px;
+}
+
+.places__button:hover {
+  background-color: #0063d2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .places__button {
+    margin: 0 16px 0 16px;
+    width: 288px;
+  }
+}
