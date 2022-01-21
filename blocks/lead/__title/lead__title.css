@@ -1,5 +1,5 @@
-.header__title {
-  font-family: "Inter";
+.lead__title {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -7,19 +7,18 @@
   text-align: center;
   color: #fff;
   max-width: 793px;
-  margin-top: 91px;
-  margin-bottom: 32px;
+  margin: 91px auto 32px;
   padding: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .header__title {
+    .lead__title {
         max-width: 720px;
     }
   }
 
 @media screen and (max-width: 320px) {
-    .header__title {
+    .lead__title {
         max-width: 288px;
         font-size: 40px;
         line-height: 1.1;

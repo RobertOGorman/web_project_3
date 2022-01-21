@@ -1,7 +1,13 @@
-.cover__info-subtitle p {
+.cover__info-subtitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
   color: #fff;
   margin: 0;
   text-align: center;
+  max-width: 280px;
 }
 
 @media screen and (max-width: 320px) {

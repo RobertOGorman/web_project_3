@@ -1,4 +1,8 @@
 .places__button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.22;
   background-color: #0278fe;
   border: none;
   border-radius: 4px;

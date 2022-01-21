@@ -1,0 +1,38 @@
+.grid__images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    row-gap: 16px;
+    column-gap: 16px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1184px
+}
+
+@media screen and (max-width: 1190px) {
+    .grid__images {
+        max-width: 900px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .grid__images {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .grid__images {
+        max-width: 352px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .grid__images {
+        row-gap: 12px;
+        justify-content: center;
+    }
+}

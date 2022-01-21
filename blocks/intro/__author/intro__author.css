@@ -1,8 +1,9 @@
 .intro__author {
+    font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 24px;
-    line-height: 1.42px;
+    line-height: 1.42;
     margin: 10px 0 32px;
     text-align: right;
     max-width: 720px;

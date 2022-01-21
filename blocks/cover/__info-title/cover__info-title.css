@@ -1,7 +1,10 @@
 .cover__info-title {
   color: #fff;
   font-size: 72px;
-  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  line-height: 1.05;
+  text-align: center;
 }
 
 @media screen and (max-width: 320px) {
