@@ -6,3 +6,15 @@
     max-width: 984px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1032px) {
+    .intro {
+        margin: 0 24px;
+    }
+  }  
+
+  @media screen and (max-width: 700px) {
+    .intro {
+        margin: 0 16px;
+    }
+  }  

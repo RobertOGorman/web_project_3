@@ -1,9 +1,0 @@
-.intro__image {
-  margin-bottom: 92px;
-}
-
-@media screen and (max-width: 768px) {
-    .intro__image {
-        margin-bottom: 0;
-    }
-  }

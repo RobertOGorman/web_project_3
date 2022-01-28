@@ -7,7 +7,6 @@
   grid-area: title;
   margin-top: 92px;
   margin-bottom: 0;
-  font-weight: bold;
 }
 
 
@@ -18,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .places__title {
     font-size: 32px;
     line-height: 1.09;

@@ -3,7 +3,7 @@
   grid-area: website;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .places__website {
     margin: 0 16px 30px 16px;
     width: 288px;

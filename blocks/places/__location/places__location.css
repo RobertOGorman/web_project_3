@@ -7,8 +7,8 @@
     "button info";
   grid-template-columns: 460px 1fr;
   grid-template-rows: min-content min-content 1fr;
-  margin: 0 auto;
-  width: calc(100% - 296px);
+  margin: 0;
+  width: 100%
 }
 
 @media screen and (max-width: 1140px) {
@@ -18,14 +18,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .places__location {
-    margin: 0;
-  }
-}
-
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 760px) {
   .places__location {
     grid-template-areas:
     "title"
@@ -36,6 +29,7 @@
     "button";
     grid-template-columns: 1fr;
     grid-gap: 32px;
-
+    width: fit-content;
+    margin-bottom: 50px;
   }
 }
