@@ -18,9 +18,9 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 492px) {
   .places__button {
-    margin: 0 16px 0 16px;
+    margin: 0 auto 0 auto;
     width: 288px;
   }
 }

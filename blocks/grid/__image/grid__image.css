@@ -3,7 +3,6 @@
     height: 213px;
 }
 
-
 @media screen and (max-width: 768px) {
     .grid__image {
         width: max-content;

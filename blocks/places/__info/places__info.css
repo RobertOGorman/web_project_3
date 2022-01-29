@@ -12,13 +12,26 @@
 @media screen and (max-width: 768px) {
   .places__info {
     font-size: 16px;
-    width: 352px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .places__info {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .places__info {
+    margin: 0 auto;
+    max-width: 375px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .places__info {
-    width: 288px;
-    margin: 30px 16px;
+    max-width: 288px;
+
   }
 }
